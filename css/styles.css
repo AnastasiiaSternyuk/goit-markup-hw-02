@@ -8,10 +8,14 @@
   --background-color-our-team: #F5F4FA;
 }
 
+.body{
+    color:var(--title-text-color)
+}
+
 /*HEADER*/
 
 .header{
-
+background-color: var(--title-text-color);
 }
 
 .logo-link{
@@ -20,15 +24,17 @@
    font-size: 26px;
    line-height: 1.19;
    letter-spacing: 0.03em;
+
    color: var(--accent-color);
 }
 
+/*Navigation*/
 .menu{
     
 }
 
-/*Navigation*/
 .nav-list{
+
 }
 
 a{
@@ -54,15 +60,7 @@ a{
 }
 
 /*CONTACTS*/
-
 .information-contact{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    list-style: none;
 
 }
 
@@ -71,8 +69,16 @@ a{
     background-color: var(--accent-color);
 }
 
+
+.contact-email,
 .contact-number{
-    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    list-style: none;
 }
 
 
@@ -83,9 +89,9 @@ a{
 
 }
 
-/*ABOUT*/
+/*HERO*/
 
-.about{
+.hero{
 background-color: var(--background-color);
 }
 
@@ -94,7 +100,7 @@ background-color: var(--background-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -106,15 +112,15 @@ background-color: var(--background-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
 
     color: var(--title-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    cursor:pointer;
 }
 
 .modal-button:active{
@@ -122,8 +128,11 @@ background-color: var(--background-color);
 }
 
 /*PREFER*/
+.section-preference{
 
-.prefer{
+}
+
+.preference-list-item{
 
 }
 
@@ -132,7 +141,7 @@ background-color: var(--background-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
@@ -159,9 +168,13 @@ background-color: var(--background-color);
     color: var(--contact-color);
 }
 
-/**/
+/*==== What-are-we-do====*/
 
-.col{
+.our-work{
+
+}
+
+.col-3{
 
 }
 
@@ -174,7 +187,7 @@ background-color: var(--background-color);
 }
 
 
-/*OUR TEAM*/
+/*====OUR TEAM====*/
 
 .sectionOurTeam{
     background-color: var(--background-color-our-team);
@@ -186,7 +199,6 @@ background-color: var(--background-color);
 
 .name{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -208,47 +220,38 @@ background-color: var(--background-color);
 }
 
 
-/*FOOTER*/
+/*=====FOOTER-INFORMATION======*/
 
 .footer{
     background-color: var(--background-color);
 }
 
-.address{
-
-}
-
-.address-list{
-
-}
-
 .map{
-    font-family: 'Roboto';
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 
-color: var(--title-text-color);
+    color: var(--title-text-color);
 }
 
 .address-email{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1/71;
-letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 
-color: var(--contact-color);
+    color: var(--contact-color);
 }
 
 .address-number{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--contact-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--contact-color);
 }

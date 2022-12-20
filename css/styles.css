@@ -62,8 +62,7 @@ a{
     list-style: none;
 }
 
-.list-link:hover,
-.list-link:focus{
+.list-link:hover{
     color: var(--accent-color);
 }
 

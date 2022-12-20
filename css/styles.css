@@ -1,28 +1,28 @@
 :root{
   --primary-text-color:#212121;
-  --title-text-color:#FFFFFF;
+  --white-color:#FFFFFF;
   --accent-color: #2196F3 ;
   --button-active-color:#188CE8;
   --contact-color: #757575;
   --background-color: #2F303A;
   --background-color-our-team: #F5F4FA;
-  --world-studio-color: #000000;
+  --black-color: #000000;
+  --color-contacts: #acacb0;
 }
 
 .body{
     font-family: 'Roboto', sans-serif;
-    
 
-    background-color:var(--title-text-color);
+    background-color:var(--white-color);
 
 }
 
 /*HEADER*/
-
 .header{
-   background-color: var(--title-text-color);
+   background-color: var(--white-color);
 }
 
+/*LOGO*/
 .logo-link{
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
@@ -33,18 +33,17 @@
    color: var(--accent-color);
 }
 
-.color-web{
+.color-wordWeb{
     color: var(--accent-color);
 }
 
-.color-studio{
-    color: var(--world-studio-color);
+.color-wordStudio{
+    color: var(--black-color);
 }
 
-.color-studio-1{
-    color: var(--title-text-color);
+.color-wordStudioo{
+    color: var(--white-color);
 }
-
 
 /*Navigation*/
 .menu{
@@ -52,7 +51,6 @@
 }
 
 .nav-list{
-    
     
 }
 
@@ -117,7 +115,7 @@ background-color: var(--background-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: var(--title-text-color);
+    color: var(--white-color);
 }
 
 .modal-button{
@@ -241,7 +239,7 @@ background-color: var(--background-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: var(--title-text-color);
+    color: var(--white-color);
 }
 
 .address-email{
@@ -249,7 +247,7 @@ background-color: var(--background-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: var(--contact-color);
+    color: var(--color-contacts);
 }
 
 .address-number{
@@ -257,5 +255,5 @@ background-color: var(--background-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: var(--contact-color);
+    color: var(--color-contacts);
 }

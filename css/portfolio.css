@@ -1,0 +1,198 @@
+:root{
+  --primary-text-color:#212121;
+  --white-color:#FFFFFF;
+  --accent-color: #2196F3 ;
+  --gray-color: #757575;
+  --background-color: #2F303A;
+  --background-color-button: #F5F4FA;
+  --black-color: #000000;
+  --background-section-portfolio: #EEEEEE;
+  --background-header: #ECECEC ;
+  --color-contacts: #acacb0;
+}
+
+/*BODY*/
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--title-text-color);
+}
+
+/*HEADER*/
+.header{
+    background-color: var(--background-header);
+}
+/*LOGO*/
+.logo-link{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+.color-wordWeb{
+    color: var(--accent-color);
+}
+
+.color-wordStudio{
+    color: var(--black-color);
+}
+
+.color-wordStudioo{
+    color: var(--white-color);
+}
+
+/*NAV*/
+.menu{
+    color: var(--primary-text-color);
+}
+
+.nav-list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    
+}
+
+
+.list-link{
+    color: var(--primary-text-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.studio:active{
+    color: var(--accent-color);
+}
+
+.portfolio-1{
+    color: var(--accent-color);
+}
+
+/*CONTACTS*/
+.information-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    list-style: none;
+
+    color: var(--gray-color);
+}
+
+.contact-email:hover{
+     color:  var(--accent-color);
+     text-underline-position: inherit;
+}
+
+
+.contact-email,
+.contact-number{
+    color: var(--gray-color);
+}
+
+/*MAIN*/
+/*FILTERS*/
+.filters{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+}
+
+.filter-buttons{
+    
+}
+
+.filter-link{
+    background-color: var(--background-color-button);
+
+    border-radius: 4px;
+}
+
+.filter-link:active{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/*OUR PROJECTS*/
+.portfolio{
+    background-color: var(--background-section-portfolio);
+}
+.our-projects{
+
+}
+.project-list-item{
+
+}
+
+.img-project{
+
+}
+
+.caption{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.03em;
+
+    color: var(--gray-color);
+}
+
+
+/*FOOTER-INFORMATION*/
+.footer{
+    background-color: var(--background-color);
+}
+
+.address{
+    font-style: normal;
+}
+
+.map{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--white-color);
+}
+
+.address-email{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--color-contacts);
+}
+
+.address-number{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--color-contacts);
+}

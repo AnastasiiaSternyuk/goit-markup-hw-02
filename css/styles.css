@@ -8,6 +8,7 @@
   --background-color-our-team: #F5F4FA;
   --black-color: #000000;
   --color-contacts: #acacb0;
+  --gray-color: #757575;
 }
 
 /*BODY*/
@@ -83,17 +84,18 @@ a{
 
     list-style: none;
 
-    color: var(--contact-color);
+    color: var(--gray-color);
 }
 
 .contact-email:hover{
      color:  var(--accent-color);
+     text-underline-position: inherit;
 }
 
 
 .contact-email,
 .contact-number{
-    
+    color: var(--gray-color);
 }
 
 

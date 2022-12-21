@@ -8,7 +8,7 @@
   --background-color-button: #F5F4FA;
   --black-color: #000000;
   --background-section-portfolio: #EEEEEE;
-  --background-header: #ECECEC ;
+  --border: #ECECEC ;
   --color-contacts: #acacb0;
 }
 
@@ -21,6 +21,8 @@
 /*HEADER*/
 .header{
     background-color: var(--white-color);
+
+    border-color: var(--border);
 }
 /*LOGO*/
 .logo-link{
@@ -111,6 +113,7 @@ a{
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
+
 }
 
 .filter-buttons{
@@ -130,7 +133,8 @@ a{
 
 /*OUR PROJECTS*/
 .portfolio{
-    background-color: var(--background-section-portfolio);
+    
+    border-color: var(--border);
 }
 .our-projects{
 

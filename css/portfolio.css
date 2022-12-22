@@ -21,7 +21,6 @@
 /*HEADER*/
 .header{
     background-color: var(--white-color);
-
     border-color: var(--border);
 }
 /*LOGO*/
@@ -120,13 +119,20 @@ a{
     
 }
 
-.filter-link{
+.filter-button{
+    color: var(--primary-text-color);
     background-color: var(--background-color-button);
 
     border-radius: 4px;
 }
 
-.filter-link:active{
+.filter-button:hover, 
+.filter-button:focus{
+    color: var(--background-color-button);
+    background-color: var(--accent-color);
+}
+
+.everyone:active{
     color: var(--white-color);
     background-color: var(--accent-color);
 }

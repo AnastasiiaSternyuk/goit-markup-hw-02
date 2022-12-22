@@ -74,6 +74,14 @@ a{
     color: var(--accent-color);
 }
 
+.studio:active{
+    color: var(--accent-color);
+}
+
+.studio{
+    color: var(--accent-color);
+}
+
 
 /*CONTACTS*/
 .information-contact{
@@ -101,13 +109,11 @@ a{
 
 
 /*=========MAIN============*/
-
 .main{
 
 }
 
 /*HERO*/
-
 .hero{
 background-color: var(--background-color);
 }
@@ -140,6 +146,10 @@ background-color: var(--background-color);
 
 .modal-button:active{
     background: var(--button-active-color);
+}
+
+.modal-button{
+    color: var(--white-color);
 }
 
 /*PREFER*/

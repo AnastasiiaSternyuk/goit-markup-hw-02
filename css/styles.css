@@ -95,16 +95,22 @@ a{
     color: var(--gray-color);
 }
 
-.contact-email:hover{
+.contact-email:hover,
+.contact-email:focus{
      color:  var(--accent-color);
      text-underline-position: inherit;
 }
 
+.contact-number:hover,
+.contact-number:focus{
+    color: var(--accent-color);
+}
 
 .contact-email,
 .contact-number{
     color: var(--gray-color);
 }
+
 
 
 
